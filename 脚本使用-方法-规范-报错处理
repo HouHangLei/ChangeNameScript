@@ -1,0 +1,29 @@
+
+一、使用方法
+
+1.先修改项目名称
+2.将脚本文件放到项目目录下
+3.终端进入项目
+4.执行脚本  ./Shell.sh
+
+
+二、注意事项
+1.文件夹名称前缀不要和类名称前缀一样（也不要类名称前缀包含的字符串）
+
+
+三、报错处理方法
+
+1.极光推送扩展报错找不到头文件
+搜索Objective-C Bridging Header  将路径导入
+
+2.没有icon和启动图
+搜索Asset Catalog ...  将icon和启动图名称导入
+
+3.Value for SWIFT_VERSION cannot be empty.
+settings搜索Swift Language Version  选择swift版本
+
+4.Error: Multiple commands produce ...
+设置File > Project/Workspace Settings
+
+5.找不到Debug-iphonesimulator/.../.../....sh文件
+重新pod install
